@@ -1,0 +1,19 @@
+{
+	"source":{
+		"vendor" : "POSTGRES",
+		"database":"source",
+		"username":"postgres",
+		"password":"postgres",
+		"host":"localhost",
+		"port":"5432"
+	},
+	"target":{
+		"vendor" : "MYSQL",
+		"database":"target",
+		"username":"root",
+		"password":"synerzip",
+		"host":"localhost",
+		"port":"3306"
+	},
+	"migrate":true
+}
